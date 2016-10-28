@@ -4,14 +4,14 @@
 
   "Mappings" : {
     "RegionMap" : {
-      "ap-southeast-1" : {
-         "vpccidr" : "10.110.11.0/24",
-         "publicsubnet1" : "10.110.11.0/26",
-         "publicsubnet2" : "10.110.11.64/26",
-         "privatesubnet1" : "10.110.11.128/26",
-         "privatesubnet2" : "10.110.11.192/26",
-         "az1" : "ap-southeast-1a",
-         "az2" : "ap-southeast-1b"
+"xxx" : {
+         "vpccidr" : "xxxx",
+         "publicsubnet1" : "xxxx",
+         "publicsubnet2" : "xxx",
+         "privatesubnet1" : "xxxx",
+         "privatesubnet2" : "xxxx",
+         "az1" : "xxx",
+         "az2" : "xxxxx"
       },
       "us-west-2" : {
         "vpccidr" : ""
