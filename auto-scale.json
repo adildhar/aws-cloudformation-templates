@@ -53,7 +53,9 @@
         "Tags": [
           {"Key": "Name","Value": {"Ref": "AWS::StackName"},"PropagateAtLaunch":"true"}
         ],
-        "LoadBalancerNames": {"Fn::FindInMap": [{"Ref": "Landscape"},{"Ref": "AWS::Region"},"elbweb"]}
+        "LoadBalancerNames": [
+                              {"Fn::FindInMap": [{"Ref": "Landscape"},{"Ref": "AWS::Region"},"elbweb"]}
+                             ]   
      }},
     "asScaleUpPolicy" : {
       "Type" : "AWS::AutoScaling::ScalingPolicy",
@@ -135,13 +137,13 @@
         {"Fn::FindInMap": [{"Ref": "Landscape"},{"Ref": "AWS::Region"},"VPCCoreSG"]}
         ],
         "InstanceType": {"Fn::FindInMap": [{"Ref": "Landscape"},{"Ref": "AWS::Region"},"InstanceType" ]},
-	      "UserData" : { "Fn::Base64" : { "Fn::Join" : ["",[
+        "UserData" : { "Fn::Base64" : { "Fn::Join" : ["",[
           "#!/bin/bash","\n",
           "# git repo update", "\n",
           "/usr/bin/git --git-dir=/var/www/symfony/.git  --work-tree=/var/www/symfony pull -force"
         ]]}}
-	    }
-	  }
+      }
+    }
   },
 "Outputs": {
 }
