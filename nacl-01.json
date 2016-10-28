@@ -5,12 +5,12 @@
   "Mappings" : {
     "RegionMap" : {
       "ap-southeast-1" : {
-        "privatesubnetnacl"  : "acl-6c912908",
-        "privatesubnetcidr1" : "10.110.11.0/26",
-        "privatesubnetcidr2" : "10.110.11.64/26",
-        "publicsubnetnacl" : "acl-63912907",
-        "publicsubnetcidr1" : "10.110.11.0/26",
-        "publicsubnetcidr2" : "10.110.11.64/26"
+        "privatesubnetnacl"  : "xxxxx",
+        "privatesubnetcidr1" : "xxxx",
+        "privatesubnetcidr2" : "xxx",
+        "publicsubnetnacl" : "xxxx",
+        "publicsubnetcidr1" : "xxx",
+        "publicsubnetcidr2" : "xxxx"
       },
       "us-west-2" : {
         "vpccidr" : ""
