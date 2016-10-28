@@ -12,19 +12,19 @@
   },
   "Mappings": {
   "Production": {
-    "ap-southeast-1": {
-      "InstanceType": "t2.micro",
-      "StackMinSize" : "1",
-      "KeyName": "tradetracker-keypair",
-      "VpcID": "vpc-cc4a81a8",
-      "elbweb": "testing-webserver-ELB",
-      "SNSTopic": "arn:aws:sns:ap-southeast-1:863346950657:tradetracker",
-      "AvailabilityZone1": "ap-southeast-1a",
-      "AvailabilityZone2": "ap-southeast-1b",
-      "AmiID": "ami-1578d976",
-      "VPCCoreSG": "sg-362f3352",
-      "PriSubnet1": "subnet-63982015",
-      "PriSubnet2": "subnet-272fa643"
+    "xxxx": {
+      "InstanceType": "xxx",
+      "StackMinSize" : "x",
+      "KeyName": "xxxx",
+      "VpcID": "xxxx",
+      "elbweb": "xxxx",
+      "SNSTopic": "xxxxx",
+      "AvailabilityZone1": "xxxx",
+      "AvailabilityZone2": "xxxx",
+      "AmiID": "xxxxx",
+      "VPCCoreSG": "xxx",
+      "PriSubnet1": "xxxx",
+      "PriSubnet2": "xxxx"
     }
   }
   },
