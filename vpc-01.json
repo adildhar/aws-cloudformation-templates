@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "tradetracker-vpc (VPC with 4 subnets across 2 AZs (a pair of public/private subnets in each AZ)",
+  "Description": "xxxxx-vpc (VPC with 4 subnets across 2 AZs (a pair of public/private subnets in each AZ)",
 
   "Mappings" : {
     "RegionMap" : {
